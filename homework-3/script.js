@@ -42,14 +42,7 @@
              }
              if (key === 'items') {
                  if (Array.isArray(obj[key])) {
-                     if (obj[key].length > 1) {
-                         obj[key].forEach(e => {
-                                itarateJson(e, el)
-
-                         })
-                     } else {
-                         itarateJson(obj[key][0], el)
-                     }
+                         obj[key].forEach(e => itarateJson(e, el))
                  }
              }
          }
