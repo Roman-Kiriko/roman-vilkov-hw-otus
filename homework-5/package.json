@@ -1,0 +1,30 @@
+{
+  "name": "otus-home-work",
+  "version": "1.0.0",
+  "description": "This homework for OTUS",
+  "private": "true",
+  "main": "script.js",
+  "dependencies": {
+    "jest": "^26.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "tree": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roman-Kiriko/roman-vilkov-hw-otus.git"
+  },
+  "keywords": [
+    "homework",
+    "otus",
+    "javascript"
+  ],
+  "author": "Roman Vilkov <aurimcreo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roman-Kiriko/roman-vilkov-hw-otus/issues"
+  },
+  "homepage": "https://github.com/Roman-Kiriko/roman-vilkov-hw-otus#readme"
+}
