@@ -1,0 +1,13 @@
+{
+    "files": [
+        "foo/bar/bar1.txt",
+        "foo/bar/bar2.txt",
+        "foo/f1.txt",
+        "foo/f2.txt"
+    ],
+    "dirs": [
+        "foo",
+        "foo/bar",
+        "foo/bar/baz"
+    ]
+}
