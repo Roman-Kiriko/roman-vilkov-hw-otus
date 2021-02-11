@@ -1,0 +1,24 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "ES6",
+    "typeRoots": ["./typings"],
+    "baseUrl": ".",
+
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "removeComments": true,
+    "target": "ES6",
+    "watch": true,
+
+    "charset": "utf8",
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "noStrictGenericChecks": true
+  },
+  "files": ["social-buttons.ts"],
+
+  "exclude": ["src/**/*.spec.ts", "node_modules"]
+}
